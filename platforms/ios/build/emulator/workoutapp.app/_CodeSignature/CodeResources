@@ -82,7 +82,19 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rRaloGocvPfxI9zorgHTfK2907o=
+		4yAsqadtMyXKvCygmCq2o77LuY8=
+		</data>
+		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
+		<data>
+		yfJdMmtsuGb5BTOaVkzHBw/8FfI=
+		</data>
+		<key>Frameworks/AFNetworking.framework/Info.plist</key>
+		<data>
+		UUDG0JlKky0XX6w9ZUMa3URLj3Y=
+		</data>
+		<key>Frameworks/AFNetworking.framework/_CodeSignature/CodeResources</key>
+		<data>
+		qtNCSk2BWYl8Q10LoDg/UCPmaP8=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -178,7 +190,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		cyxuMo/HYluFxQ/K297M0zt7ubg=
+		PWgN4LKrhWeI/sYpcl1wKuPq25o=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -186,7 +198,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Wxs4+Q03u0ytkPSmuV9M3Y0A6mg=
+		BGST/3jXcx4dOufOKxAPT2lNu0w=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -234,7 +246,59 @@
 		</data>
 		<key>app/shared/view-models/user-view-model.js</key>
 		<data>
-		9zRCLe3GQlnGNTvzRKVCfq6zmWc=
+		yzwVoNINg3jQg7x3NTAm9tbT7no=
+		</data>
+		<key>app/tns_modules/nativescript-https/.npmignore</key>
+		<data>
+		fLJOtzZohgxEz9xMPamZiFPl6+Q=
+		</data>
+		<key>app/tns_modules/nativescript-https/AFNetworking.d.ts</key>
+		<data>
+		wzsR83+sGMAPI93cTJJWcSPfsxI=
+		</data>
+		<key>app/tns_modules/nativescript-https/LICENSE</key>
+		<data>
+		TNaz8K6HesbXTCEG9c6qZ1F+Rfk=
+		</data>
+		<key>app/tns_modules/nativescript-https/README.md</key>
+		<data>
+		L1N2OxQJ+Vl1cy7Yhq5HjrvwcoU=
+		</data>
+		<key>app/tns_modules/nativescript-https/com.squareup.okhttp3.d.ts</key>
+		<data>
+		QdLKFn8BZr1eKLbfsT6a0d4xSRY=
+		</data>
+		<key>app/tns_modules/nativescript-https/https.common.d.ts</key>
+		<data>
+		gm9qIjFWgTAXOaMqTcPQ3J6Y+TQ=
+		</data>
+		<key>app/tns_modules/nativescript-https/https.common.js</key>
+		<data>
+		5HHvVYbwfr7Auw2Aky6MXrdlwhY=
+		</data>
+		<key>app/tns_modules/nativescript-https/https.d.ts</key>
+		<data>
+		ibvidhApcuAFxZOlZPu8TEX9X3U=
+		</data>
+		<key>app/tns_modules/nativescript-https/https.js</key>
+		<data>
+		yNAjCJZgYDV/hTKPOWQPDxGoiuY=
+		</data>
+		<key>app/tns_modules/nativescript-https/index.d.ts</key>
+		<data>
+		jYkfVH9QfXB6sB91n6lk4ouWhUo=
+		</data>
+		<key>app/tns_modules/nativescript-https/package.json</key>
+		<data>
+		aBo57WEwPzp3PAFK0Cz2nnQrJ7g=
+		</data>
+		<key>app/tns_modules/nativescript-https/references.d.ts</key>
+		<data>
+		g1gkxxy8CdPdR3DlN9rNj2U1WR0=
+		</data>
+		<key>app/tns_modules/nativescript-https/tsconfig.json</key>
+		<data>
+		X2CJIIoMlwoVAZTQ9onLOl+B1To=
 		</data>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
 		<data>
@@ -1905,11 +1969,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rRaloGocvPfxI9zorgHTfK2907o=
+			4yAsqadtMyXKvCygmCq2o77LuY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODL9IEFWaGBfenJ8RzyqpCsgB2H/qqW1+06h+/TndYI=
+			I37/GtbUSmyMdY9bekjK0HtLnGEsTQvGtfrmGb+Owg0=
+			</data>
+		</dict>
+		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yfJdMmtsuGb5BTOaVkzHBw/8FfI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xs+UckIDxDGpszqw+T2w4UbwzQpmMBJQjlTBVmihWn0=
+			</data>
+		</dict>
+		<key>Frameworks/AFNetworking.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UUDG0JlKky0XX6w9ZUMa3URLj3Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			B0nCCLg1BSb7ULKTqD+bD7VR9mRriMcS59nV4oygsZ0=
+			</data>
+		</dict>
+		<key>Frameworks/AFNetworking.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qtNCSk2BWYl8Q10LoDg/UCPmaP8=
+			</data>
+			<key>hash2</key>
+			<data>
+			D2jo3IOqr/acDSC0N8ReZgriB7bPHFG/YHIkgj+kSm0=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2158,11 +2255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cyxuMo/HYluFxQ/K297M0zt7ubg=
+			PWgN4LKrhWeI/sYpcl1wKuPq25o=
 			</data>
 			<key>hash2</key>
 			<data>
-			r9fhuU/md21W+jfQYaW+yNUD3aACZRhzYPLid+Ku5Tk=
+			u/hkgPx2t5bBbdS2zjXXvW2IPplILLQwUXMTF6WGbKE=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2180,11 +2277,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wxs4+Q03u0ytkPSmuV9M3Y0A6mg=
+			BGST/3jXcx4dOufOKxAPT2lNu0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			yFz2NUVK4SCTRDQ/C288jbsqk3lXf6iyqrL3A+JKrik=
+			t2TLpG0jBhszXCGiTrMrEoI/Nof40r2TwKLvZG9nlW4=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -2301,11 +2398,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9zRCLe3GQlnGNTvzRKVCfq6zmWc=
+			yzwVoNINg3jQg7x3NTAm9tbT7no=
 			</data>
 			<key>hash2</key>
 			<data>
-			6TD0u4FK7Sh/T7hbI16dHPZN/XcTW61grLmGby8HGFc=
+			BHPm57LgzSI0FhmO3RKTqBbTIoJLRzTcOcu6duDsj6Y=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fLJOtzZohgxEz9xMPamZiFPl6+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			maynsyEwUfF7Sz4naMOjREThPbIdPm96Fr2sXS/cPlo=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/AFNetworking.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wzsR83+sGMAPI93cTJJWcSPfsxI=
+			</data>
+			<key>hash2</key>
+			<data>
+			4BpI9WSeeJ0MhOgmpZuq1jzyVwzrjAQgQ6dpdJLRk60=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TNaz8K6HesbXTCEG9c6qZ1F+Rfk=
+			</data>
+			<key>hash2</key>
+			<data>
+			6FIneWw7gv4yWUSFF7DDYFIL2C7psPa3MKtL26s9PKg=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			L1N2OxQJ+Vl1cy7Yhq5HjrvwcoU=
+			</data>
+			<key>hash2</key>
+			<data>
+			r8rd+qHMXqhMyu4bQwZEwPyGgcIDIW5X8KL62atGjPk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/com.squareup.okhttp3.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QdLKFn8BZr1eKLbfsT6a0d4xSRY=
+			</data>
+			<key>hash2</key>
+			<data>
+			uUyhOwYPBspOrUEzx9+GbUhBUUKdPdMmj7GVinhKG4w=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/https.common.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gm9qIjFWgTAXOaMqTcPQ3J6Y+TQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qd8ZMkbO394Fdn78zdzFbxR+ceqa4VZ07dbTAGg+zKM=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/https.common.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5HHvVYbwfr7Auw2Aky6MXrdlwhY=
+			</data>
+			<key>hash2</key>
+			<data>
+			rS42McTnZ8BkXPbwcM2YbiTCP++fxD68NUglP4ouMAY=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/https.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ibvidhApcuAFxZOlZPu8TEX9X3U=
+			</data>
+			<key>hash2</key>
+			<data>
+			NFenq3IXfzEciVdoTDGMSXFsf4D07a1QARJs4MujO3w=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/https.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yNAjCJZgYDV/hTKPOWQPDxGoiuY=
+			</data>
+			<key>hash2</key>
+			<data>
+			GtoZVBP6z+YgyR1vfNxaEs8gE6jdyCe2pfm4FRBsCOk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jYkfVH9QfXB6sB91n6lk4ouWhUo=
+			</data>
+			<key>hash2</key>
+			<data>
+			gBrvMf7i8mlP5zFPy5n8y/Kf++Y4ecnlRVHo65KKMWk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aBo57WEwPzp3PAFK0Cz2nnQrJ7g=
+			</data>
+			<key>hash2</key>
+			<data>
+			18oxiZwYy8ZFQ1/uuPOKWh/KaHm2zJOMtk+77bGKLQA=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/references.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g1gkxxy8CdPdR3DlN9rNj2U1WR0=
+			</data>
+			<key>hash2</key>
+			<data>
+			EzBW6Q6LOKZFLCRr5bGAzxcAW+rgvVOICFhSmxmmTDE=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-https/tsconfig.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X2CJIIoMlwoVAZTQ9onLOl+B1To=
+			</data>
+			<key>hash2</key>
+			<data>
+			NkkCJr9ctrbQtp4bZtmAag84LTitJG1AVwl6XgTSFN8=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>

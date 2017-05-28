@@ -36,11 +36,11 @@ BEGIN
 END$$
 DELIMITER ;
 
-CREATE TABLE `workout`.`items` (
-  `itemID` INT NOT NULL AUTO_INCREMENT,
+CREATE TABLE `workout`.`exercises` (
+  `exerciseID` INT NOT NULL AUTO_INCREMENT,
   `userID` VARCHAR(55) NOT NULL,
-  `itemName` VARCHAR(55) NOT NULL,
-  PRIMARY KEY (`itemID`));
+  `exerciseName` VARCHAR(55) NOT NULL,
+  PRIMARY KEY (`exerciseID`));
 
 #DELIMITER $$
 #CREATE DEFINER=`root`@`localhost` 
@@ -51,9 +51,9 @@ in p_userID int,
 in p_item varchar(55)
 )
 BEGIN
-    insert into items(
+    insert into exercises(
         userID,
-        itemName
+        exerciseName
     )
     values(
         p_userID,
@@ -72,6 +72,6 @@ CREATE PROCEDURE `sp_GetAllItems` (
 in p_userID int
 )
 BEGIN
-    select itemID, itemName from items where userID = p_userID; 
+    select exerciseID, exerciseName from exercises where userID = p_userID; 
 END$$
 DELIMITER ;

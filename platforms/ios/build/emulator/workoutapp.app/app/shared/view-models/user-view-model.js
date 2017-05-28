@@ -1,6 +1,6 @@
 var config = require("../../shared/config");
 var fetchModule = require("fetch");
-var observableModule = require("data/observable");
+import * as Https from 'nativescript-https'
 function User(info) {
     info = info || {};
 
@@ -10,6 +10,24 @@ function User(info) {
         password: info.password || ""
     });
     viewModel.login = function() {
+        Https.request({
+            url: config.ApiUrl + "/AuthenticateUser",
+            method:'GET',
+            headers: {
+                'Authorization': 'Basic Zwx1c3vhcmlvOnlsYWNsYXZ1',
+                'x-uuid': 'aHR0cHdhdGNoOmY',
+                'x-version': '4.2.0',
+                'x-env': 'DEVELOPMENT'
+            },
+        }).then(function(response) {
+            console.log('Https.request response', response)
+        }).catch(function(error) {
+            console.error('Https.request error', error)
+            
+        })
+
+
+        /*
         return fetchModule.fetch(config.apiUrl + "/AuthenticateUser", {
             method: "POST",
             body: JSON.stringify({
@@ -36,7 +54,7 @@ function User(info) {
             }
 
         })
-    };
+    };*/
     viewModel.register = function() {
         return fetchModule.fetch(config.apiUrl + "/CreateUser", {
             method: "POST",

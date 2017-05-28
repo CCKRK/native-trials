@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Resource, Api
 from flask_restful import reqparse
-from flask.ext.mysql import MySQL
+from flaskext.mysql import MySQL
 
 
 
@@ -18,7 +18,7 @@ app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
 api = Api(app)
-
+#this needs to be a get
 class AuthenticateUser(Resource):
     def post(self):
         try:
@@ -38,7 +38,7 @@ class AuthenticateUser(Resource):
             data = cursor.fetchall()
             if(len(data)>0):
                 if(str(data[0][2])==_userPassword):
-                    return {'status':200,'UserId':str(data[0][0])}
+                    return {'status':200,'UserID':str(data[0][0])}
                 else:
                     return {'status':100,'message':'Authentication failure'}
             if(len(data)==0):
@@ -48,7 +48,7 @@ class AuthenticateUser(Resource):
 
 
 class GetAllItems(Resource):
-    def post(self):
+    def get(self):
         try: 
             # Parse the arguments
             parser = reqparse.RequestParser()
@@ -62,16 +62,16 @@ class GetAllItems(Resource):
             cursor.callproc('sp_GetAllItems',(_userID,))
             data = cursor.fetchall()
 
-            items_list=[];
+            exercise_list=[];
             for item in data:
 
                 i = {
-                    'itemID':item[0],
-                    'itemName':item[1]
+                    'exerciseID':item[0],
+                    'exerciseName':item[1]
                 }
-                items_list.append(i)
+                exercise_list.append(i)
 
-            return {'StatusCode':'200','Items':items_list}
+            return {'StatusCode':'200','Exercises':exercise_list}
 
         except Exception as e:
             return {'error': str(e)}
@@ -82,17 +82,18 @@ class AddItem(Resource):
             # Parse the arguments
             parser = reqparse.RequestParser()
             parser.add_argument('userID', type=str)
-            parser.add_argument('itemName', type=str)
+            parser.add_argument('exerciseName', type=str)
             args = parser.parse_args()
 
-            _userID = args['userID']
-            _item = args['itemName']
+            #_userID = args['userID']
+            _userID = 1
+            _exercise = args['exerciseName']
 
             print _userID;
 
             conn = mysql.connect()
             cursor = conn.cursor()
-            cursor.callproc('sp_AddItems',(_userID,_item))
+            cursor.callproc('sp_AddItems',(_userID,_exercise))
             data = cursor.fetchall()
 
             conn.commit()

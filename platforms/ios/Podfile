@@ -1,0 +1,11 @@
+use_frameworks!
+
+target "workoutapp" do
+# Begin Podfile - /Users/codykessler/workoutapp/node_modules/nativescript-https/platforms/ios/Podfile 
+ # 
+
+pod 'AFNetworking', '~> 3.0'
+ 
+ # End Podfile 
+
+end
