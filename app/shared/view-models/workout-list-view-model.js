@@ -1,11 +1,13 @@
 var config = require("../../shared/config");
 var fetchModule = require("fetch");
 var ObservableArray = require("data/observable-array").ObservableArray;
-//var UserViewModel = require("../../shared/view-models/user-view-model");
+var appSettings = require('application-settings');
+var token = appSettings.getString('token','defaultValue');
 function workoutListViewModel(items) {
     var viewModel = new ObservableArray(items);
     viewModel.load = function() {
-    return fetch(config.apiUrl + "/GetAllItems?userID=1", {
+        console.log(token);
+    return fetch(config.apiUrl + "/GetAllItems?userID=" + token, {
         headers: {
          //   "Authorization": "None" //+ config.token
         }
@@ -19,7 +21,6 @@ function workoutListViewModel(items) {
                 name: data.Exercises[i].exerciseName,
                 id: data.Exercises[i].exerciseID
             });
-          //  console.log(data.Exercises[i].exerciseName);
         };
     });
 };
@@ -29,11 +30,12 @@ viewModel.empty = function() {
     }
 };
 
-/*viewModel.add = function(newExercise) {
+viewModel.add = function(newExercise) {
     return fetch(config.apiUrl + "/AddItem", {
         method: "POST",
         body: JSON.stringify({
-            exerciseName: newExercise
+            exerciseName: newExercise,
+            userID: token
         }),
         headers: {
             //"Authorization": "Bearer " + config.token,
@@ -45,9 +47,9 @@ viewModel.empty = function() {
         return response.json();
     })
     .then(function(data) {
-        viewModel.push({ name: newExercise, id: data.Exercises.exerciseID });
+        viewModel.push({ name: newExercise, id: this.exerciseID });
     });
-};*/
+};
     return viewModel;
 }
 function handleErrors(response) {

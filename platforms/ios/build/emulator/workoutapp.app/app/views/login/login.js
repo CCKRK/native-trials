@@ -3,7 +3,12 @@ var dialogsModule = require("ui/dialogs");
 var page;
 var email;
 var UserViewModel = require("../../shared/view-models/user-view-model");
-var user = new UserViewModel();
+//var user = new UserViewModel();
+//hardcode credentials for trials
+var user = new UserViewModel({
+    email: "codykessler@gmail.com",
+    password: "savias12"
+});
 exports.loaded = function(args) {
     page = args.object;
     page.bindingContext = user;

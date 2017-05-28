@@ -86,7 +86,7 @@ class AddItem(Resource):
             args = parser.parse_args()
 
             #_userID = args['userID']
-            _userID = 1
+            _userID = args['userID']
             _exercise = args['exerciseName']
 
             print _userID;

@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		4yAsqadtMyXKvCygmCq2o77LuY8=
+		uKn0cnTVEEF9ImKqql2Drce9vZE=
 		</data>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Os0mRuuV2G0HFTKcLkxZw+J8w5s=
+		cSM2/0Q7iVHq6TkH8vWQLwv2Mds=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		PWgN4LKrhWeI/sYpcl1wKuPq25o=
+		BeRytvgm/t4EAB7fozDm7ye/+44=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		BGST/3jXcx4dOufOKxAPT2lNu0w=
+		NiqX6DYBeSvNBydpGour3nMiFxM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -215,6 +215,38 @@
 		<key>app/app.js</key>
 		<data>
 		nuTKLvQQqm5MvW3LlBdabDFS1NI=
+		</data>
+		<key>app/certs/ca-key.pem</key>
+		<data>
+		kpFJQMm29i15FmY02mfHfcuoFA0=
+		</data>
+		<key>app/certs/ca.pem</key>
+		<data>
+		hLBc2hgpLNXhmVO/3HgTaWA+5Xs=
+		</data>
+		<key>app/certs/client-cert.pem</key>
+		<data>
+		NGrKHGwuM47c5GH0HhdeHurPkcE=
+		</data>
+		<key>app/certs/client-key.pem</key>
+		<data>
+		3t5kNSFS2RvzsFRR2rw74EnDwys=
+		</data>
+		<key>app/certs/private_key.pem</key>
+		<data>
+		5oPD5BeDCLolccZfY89eJtqv3/I=
+		</data>
+		<key>app/certs/public_key.pem</key>
+		<data>
+		m5B7pPgZa18t//hZX7mjxTRQ6CY=
+		</data>
+		<key>app/certs/server-cert.pem</key>
+		<data>
+		OEVb0/LLN74evgKYkhgOG+Yl9oo=
+		</data>
+		<key>app/certs/server-key.pem</key>
+		<data>
+		ZWGsBgCoeLcS4De+kHlRmfI9j7g=
 		</data>
 		<key>app/images/apple.jpg</key>
 		<data>
@@ -240,13 +272,13 @@
 		<data>
 		nlPPpQuP/IAFd882n8AtAwX2vHo=
 		</data>
-		<key>app/shared/view-models/grocery-list-view-model.js</key>
-		<data>
-		o2Usrd67ekm5QsIUnCQlyfyK0ew=
-		</data>
 		<key>app/shared/view-models/user-view-model.js</key>
 		<data>
-		yzwVoNINg3jQg7x3NTAm9tbT7no=
+		oJ5lS4xHkMrOPRjg8W15BhWMGfs=
+		</data>
+		<key>app/shared/view-models/workout-list-view-model.js</key>
+		<data>
+		9VpJrAY+hT5Dh+5glhX7sdbn7t4=
 		</data>
 		<key>app/tns_modules/nativescript-https/.npmignore</key>
 		<data>
@@ -1702,11 +1734,11 @@
 		</data>
 		<key>app/views/list/list.js</key>
 		<data>
-		fkb+mV1csCCr6VcMQSltpGfhB7Q=
+		IZ0UXUPymxhSwHdHAbcVbPRHjbM=
 		</data>
 		<key>app/views/list/list.xml</key>
 		<data>
-		tgcJa1MxtdS7lxMvLJmM4OV42eQ=
+		mPH+aY7qkRBLaxRZI/it/NFHYs4=
 		</data>
 		<key>app/views/login/login.css</key>
 		<data>
@@ -1714,7 +1746,7 @@
 		</data>
 		<key>app/views/login/login.js</key>
 		<data>
-		kGu+3bBZQb2vscF9zdlrBeMQ6N0=
+		/rleHCqLCIlszU2sVVKAZLQF4bg=
 		</data>
 		<key>app/views/login/login.xml</key>
 		<data>
@@ -1969,11 +2001,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4yAsqadtMyXKvCygmCq2o77LuY8=
+			uKn0cnTVEEF9ImKqql2Drce9vZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			I37/GtbUSmyMdY9bekjK0HtLnGEsTQvGtfrmGb+Owg0=
+			WXcFbmeqdEWeg15MWw+fgoSwydfNWWfAstFCrcemLI4=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
@@ -2255,11 +2287,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PWgN4LKrhWeI/sYpcl1wKuPq25o=
+			BeRytvgm/t4EAB7fozDm7ye/+44=
 			</data>
 			<key>hash2</key>
 			<data>
-			u/hkgPx2t5bBbdS2zjXXvW2IPplILLQwUXMTF6WGbKE=
+			nVDuFHhmCnZcgmEWoX9yfi8B4Vl3962CNjtL5P+VX+M=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2277,11 +2309,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BGST/3jXcx4dOufOKxAPT2lNu0w=
+			NiqX6DYBeSvNBydpGour3nMiFxM=
 			</data>
 			<key>hash2</key>
 			<data>
-			t2TLpG0jBhszXCGiTrMrEoI/Nof40r2TwKLvZG9nlW4=
+			+jjLPLemle6XFLkHg97en6LmDxEC8Pmtq36klJKWqNo=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -2315,6 +2347,94 @@
 			<key>hash2</key>
 			<data>
 			MEbeHKuGOGS/eW5cXzKZNhEf5IGL9TqmCsBOwBbA9KA=
+			</data>
+		</dict>
+		<key>app/certs/ca-key.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kpFJQMm29i15FmY02mfHfcuoFA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			kWVj2osePIEOsBMTXZ9/RlG75gDk2QWTnJb3sT6b4kU=
+			</data>
+		</dict>
+		<key>app/certs/ca.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hLBc2hgpLNXhmVO/3HgTaWA+5Xs=
+			</data>
+			<key>hash2</key>
+			<data>
+			/LvDmlV0Q07Qll97hRR+GvZFQTOTcm/hQDY2osDnFiI=
+			</data>
+		</dict>
+		<key>app/certs/client-cert.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NGrKHGwuM47c5GH0HhdeHurPkcE=
+			</data>
+			<key>hash2</key>
+			<data>
+			g6A9qvhLFZWXDrq7xqGBM3iV0R5Zfo9bzzM/xQ/65qk=
+			</data>
+		</dict>
+		<key>app/certs/client-key.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3t5kNSFS2RvzsFRR2rw74EnDwys=
+			</data>
+			<key>hash2</key>
+			<data>
+			68faWqUieBoBAxvL3xW7k83UcCsebMfTgOfFvQ7KhVk=
+			</data>
+		</dict>
+		<key>app/certs/private_key.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5oPD5BeDCLolccZfY89eJtqv3/I=
+			</data>
+			<key>hash2</key>
+			<data>
+			aNNKOCWEVBXt6mGlEZfPqD0VmI4J4MPcRdA097f+/Uo=
+			</data>
+		</dict>
+		<key>app/certs/public_key.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m5B7pPgZa18t//hZX7mjxTRQ6CY=
+			</data>
+			<key>hash2</key>
+			<data>
+			COMJzL2V5117OGWhI2L3/YPvEE4hNY+DScMlUiYdBBw=
+			</data>
+		</dict>
+		<key>app/certs/server-cert.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OEVb0/LLN74evgKYkhgOG+Yl9oo=
+			</data>
+			<key>hash2</key>
+			<data>
+			kuYiqfyVnEGv6tyWfhKsf0XHBN1U3jHCX1oat3ojqYk=
+			</data>
+		</dict>
+		<key>app/certs/server-key.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZWGsBgCoeLcS4De+kHlRmfI9j7g=
+			</data>
+			<key>hash2</key>
+			<data>
+			P1/tg83BdycZBq9izxWq1KE8CgFAaVmKpAac7E54/p8=
 			</data>
 		</dict>
 		<key>app/images/apple.jpg</key>
@@ -2383,26 +2503,26 @@
 			jtmtVGfaYonZf3vEG8H8OoNwtUcft037wF066fIJwWE=
 			</data>
 		</dict>
-		<key>app/shared/view-models/grocery-list-view-model.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o2Usrd67ekm5QsIUnCQlyfyK0ew=
-			</data>
-			<key>hash2</key>
-			<data>
-			cBXacWcKk5lT15f0bMC1FDjeLDzM/0wp82QF/Lzyeag=
-			</data>
-		</dict>
 		<key>app/shared/view-models/user-view-model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yzwVoNINg3jQg7x3NTAm9tbT7no=
+			oJ5lS4xHkMrOPRjg8W15BhWMGfs=
 			</data>
 			<key>hash2</key>
 			<data>
-			BHPm57LgzSI0FhmO3RKTqBbTIoJLRzTcOcu6duDsj6Y=
+			5rpJkUIZP7Gfd6mmjKDUhrxl89OWvk4HxyB8+u8VId4=
+			</data>
+		</dict>
+		<key>app/shared/view-models/workout-list-view-model.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9VpJrAY+hT5Dh+5glhX7sdbn7t4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kz6n5mSVdS9GLM8PzwM/s34VYsxmjxq5R1OpjKR8fzo=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-https/.npmignore</key>
@@ -6402,22 +6522,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fkb+mV1csCCr6VcMQSltpGfhB7Q=
+			IZ0UXUPymxhSwHdHAbcVbPRHjbM=
 			</data>
 			<key>hash2</key>
 			<data>
-			5u50lxUzWyIIqMxcwoA12xe4wtIV15Uft58k6c5ZxD0=
+			Hlz1u/+ygZavShtasSpxYizfGJz/gk94z+0FgXZVrGw=
 			</data>
 		</dict>
 		<key>app/views/list/list.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tgcJa1MxtdS7lxMvLJmM4OV42eQ=
+			mPH+aY7qkRBLaxRZI/it/NFHYs4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y94i2JysknwdGwebm9t0tUQvTbq0ZzyPqWg87FoU46A=
+			fYgZgpRB9OOcojwOhUa9XvLg3Opfl2jvMUf1x+q4uNQ=
 			</data>
 		</dict>
 		<key>app/views/login/login.css</key>
@@ -6435,11 +6555,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kGu+3bBZQb2vscF9zdlrBeMQ6N0=
+			/rleHCqLCIlszU2sVVKAZLQF4bg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MXHxRtcmJiq9RAMzNb2b6lqVqfgUdkg5/lXimC68FFc=
+			Ytu+R75gC0XzzF70S1nnKY+B8w+1u7F2Wjqylg22Ji0=
 			</data>
 		</dict>
 		<key>app/views/login/login.xml</key>

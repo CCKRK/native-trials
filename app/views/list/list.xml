@@ -1,5 +1,7 @@
 <Page loaded="loaded">
-	<GridLayout>
+	<GridLayout rows="auto, *" columns="2*, *">
+        <TextField id="newExercise" text="{{ newExercise }}" hint="Add a new Exercise" row="0" col="0" />
+        <Button text="Add" tap="add" row="0" col="1" />
         <ListView items="{{ workoutList }}" id="workoutList" row="1" colSpan="2">
         	<ListView.itemTemplate>
                 <Label text="{{ name }}" horizontalAlignment="left" verticalAlignment="center"/>

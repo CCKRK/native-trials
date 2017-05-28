@@ -5,8 +5,8 @@ var page;
 var workoutListViewModel = require("../../shared/view-models/workout-list-view-model");
 var workoutList = new workoutListViewModel([]);
 var pageData = new observableModule.fromObject({
-    workoutList: workoutList
-    //newExercise: ""
+    workoutList: workoutList,
+    newExercise: ""
 });
 
 exports.loaded = function(args) {
@@ -17,7 +17,7 @@ exports.loaded = function(args) {
     workoutList.load();
 };
 //have to redo add function to interact with sql
-/*exports.add = function() {
+exports.add = function() {
     // Check for empty submissions
     if (pageData.get("newExercise").trim() === "") {
         dialogsModule.alert({
@@ -39,4 +39,4 @@ exports.loaded = function(args) {
 
     // Empty the input field
     pageData.set("newExercise", "");
-};*/
+};

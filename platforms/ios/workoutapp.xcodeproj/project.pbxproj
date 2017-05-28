@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		37EB1983706449B293B1E565 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E647E4DD1448A3898F15A4 /* logo@2x.png */; };
 		4F6574C0959944D9B5B2857D /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E6026B3CD40468ECA740F /* build.xcconfig */; };
