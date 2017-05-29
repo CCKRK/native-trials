@@ -17,6 +17,8 @@
 		B853761ACB474AA4A8679C63 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD113E507BFC43BBB57980B3 /* TNSWidgets.framework */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		4CDCDDEE77E5452C819063B0 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B0F9820E934D72AF99C657 /* TelerikUI.framework */; };
+		638E3CB8780F49469FF90DA8 /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B0F9820E934D72AF99C657 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				60CF2683395F4CC694CD34EC /* TNSWidgets.framework in Embed Frameworks */,
+				638E3CB8780F49469FF90DA8 /* TelerikUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +55,7 @@
 		EA05329713584FE39CA43FB6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = workoutapp/Resources/logo.png; sourceTree = "<group>"; };
 		F607BB5769CB42ADBB1D6487 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = workoutapp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD113E507BFC43BBB57980B3 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		F8B0F9820E934D72AF99C657 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			files = (
 				B853761ACB474AA4A8679C63 /* TNSWidgets.framework in Frameworks */,
 				97F4B7C8C7DD33887F1BF9EC /* Pods_workoutapp.framework in Frameworks */,
+				4CDCDDEE77E5452C819063B0 /* TelerikUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,7 @@
 			children = (
 				FD113E507BFC43BBB57980B3 /* TNSWidgets.framework */,
 				C90DA05BDE5ECCB6CED7A264 /* Pods_workoutapp.framework */,
+				F8B0F9820E934D72AF99C657 /* TelerikUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -429,6 +435,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "workoutapp/workoutapp-Prefix.pch";
@@ -459,6 +466,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "workoutapp/workoutapp-Prefix.pch";

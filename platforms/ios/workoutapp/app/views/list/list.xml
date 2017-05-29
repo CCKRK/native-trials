@@ -1,6 +1,6 @@
 <Page loaded="loaded">
 	<Page.actionBar>
-	    <ActionBar title="Routine">
+	    <ActionBar title="Exercise List">
 	        <ActionBar.actionItems>
 	            <ActionItem text="Share" tap="share" ios.position="right" />
 	        </ActionBar.actionItems>

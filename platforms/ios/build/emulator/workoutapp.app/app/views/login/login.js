@@ -33,5 +33,5 @@ exports.signIn = function() {
 };
 exports.register = function() {
 	var topmost = frameModule.topmost();
-	topmost.navigate("views/register/register");
+	topmost.navigate("views/routines/routines");
 };

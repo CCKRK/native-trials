@@ -28,7 +28,7 @@ exports.signIn = function() {
             return Promise.reject();
         })
         .then(function() {
-            frameModule.topmost().navigate("views/list/list");
+            frameModule.topmost().navigate("views/routines/routines");
         });
 };
 exports.register = function() {
