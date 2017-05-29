@@ -86,11 +86,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		wb8eEsMSKLVhO/C6BZFTx7rfmJI=
+		w/sqWxcAV5gu8TWvOHpGuKU9Nz4=
 		</data>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		rY6Vj7an1lV0KGID1xc2GNy8S2Y=
+		TwMlvqKoW9wuR56uEarX2IdHe88=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		KHpr0zBqU1cxbGTepTtgBoyjXVw=
+		oJh5SQLtEGqL9SHhNSrqmn/weOg=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		cQ6DIHMCOutxEBlIpF7/z3/ARG8=
+		50kK+caZgZmu1fMXb3Jkm1P2MzA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		Y4hIlXTIsALFfrf+kri5V342mOY=
+		5yU4V4z2nUjh1PUXOj8gggkgbww=
 		</data>
 		<key>app/app.js</key>
 		<data>
@@ -282,7 +282,7 @@
 		</data>
 		<key>app/shared/view-models/workout-list-view-model.js</key>
 		<data>
-		X79+NRkGXBfWJZW91a2yHOy21zc=
+		Z2J/Pmf7GUEtU1FRxpRsBhw8xZ0=
 		</data>
 		<key>app/tns_modules/email-validator/.npmignore</key>
 		<data>
@@ -1794,7 +1794,7 @@
 		</data>
 		<key>app/views/list/list.js</key>
 		<data>
-		vVH35gBh17r4uuNnxOxra/Xplzs=
+		NRu2m3gK6WixW4YKKx+i/J9CHHA=
 		</data>
 		<key>app/views/list/list.xml</key>
 		<data>
@@ -1806,11 +1806,11 @@
 		</data>
 		<key>app/views/login/login.js</key>
 		<data>
-		/rleHCqLCIlszU2sVVKAZLQF4bg=
+		pdXralqSlNuDHLasDKC0huVb/bY=
 		</data>
 		<key>app/views/login/login.xml</key>
 		<data>
-		KQXUxYtp2CLEqv4/MUBJgdC83mI=
+		q92ouqdaB8ZUA1SWSJEp4myWGo8=
 		</data>
 		<key>app/views/register/register.js</key>
 		<data>
@@ -1818,7 +1818,11 @@
 		</data>
 		<key>app/views/register/register.xml</key>
 		<data>
-		aQXVu0XT26KZbRxNdVuCEzcqKiE=
+		7RNIc5Dm3u+EsTvbqG+ebetrMr0=
+		</data>
+		<key>build-release.xcconfig</key>
+		<data>
+		45ZapnHwkJW7OEz5xzSEiaNkdX4=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -2072,22 +2076,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wb8eEsMSKLVhO/C6BZFTx7rfmJI=
+			w/sqWxcAV5gu8TWvOHpGuKU9Nz4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+i4KqFO+sNfS/oSWVIdvCguikywYK3fUSQnIShiQYnY=
+			oNnC9WNRFdPrW/TS64+6F+FFGX6ahn9WsUHMtQaHPm0=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rY6Vj7an1lV0KGID1xc2GNy8S2Y=
+			TwMlvqKoW9wuR56uEarX2IdHe88=
 			</data>
 			<key>hash2</key>
 			<data>
-			suP6E/1ftOvSfYtPXqaPiW7StQHnpXShPtGWLHaVIjg=
+			rQqEBYmRr8zvnH/x47GvyUTDEM5PFyoLf3I3ST57qqY=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
@@ -2358,11 +2362,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KHpr0zBqU1cxbGTepTtgBoyjXVw=
+			oJh5SQLtEGqL9SHhNSrqmn/weOg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Eickg9TmANkWVWf1VD7HR2AZ5PmR4OhJ1jhEz0Q2pw=
+			JA+GW8nCzELLzB1uslrkq191zRn9UbF+Q7K1oxBuksc=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2380,11 +2384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cQ6DIHMCOutxEBlIpF7/z3/ARG8=
+			50kK+caZgZmu1fMXb3Jkm1P2MzA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XTRbGyb9dHGlULJ3RDgMOQiWeTDnAr4oq+GyyHMMsy8=
+			jMG5yLbP14kDKUs1E1DRbzW7O50r26ARlgMcbjE39gg=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -2402,11 +2406,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y4hIlXTIsALFfrf+kri5V342mOY=
+			5yU4V4z2nUjh1PUXOj8gggkgbww=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubYF2sH6CTT+nbFDUZ7jVpwNbANVCS9vqbTrtkuHECE=
+			Uyuh/6I1BXRlBitSDtlSc7i7m72mOLzh7roOpCJ/dSc=
 			</data>
 		</dict>
 		<key>app/app.js</key>
@@ -2589,11 +2593,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X79+NRkGXBfWJZW91a2yHOy21zc=
+			Z2J/Pmf7GUEtU1FRxpRsBhw8xZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzhjAVHIFFBkHTSSzCw/52GzQ3f7HnV6UVAgp+m9g6w=
+			D8DCq0pMMAdlA0BHR71oYfwiCBCuaz1G/mQ9zUP544g=
 			</data>
 		</dict>
 		<key>app/tns_modules/email-validator/.npmignore</key>
@@ -6747,11 +6751,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vVH35gBh17r4uuNnxOxra/Xplzs=
+			NRu2m3gK6WixW4YKKx+i/J9CHHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VUn3r3x3xE4jncVN95ScElHGmHv7RM8yEpeIs3mI00E=
+			X4lcC+F7LOy//3dUBf5+CVrggLvCMrdXsN9+d4kTB/U=
 			</data>
 		</dict>
 		<key>app/views/list/list.xml</key>
@@ -6780,22 +6784,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/rleHCqLCIlszU2sVVKAZLQF4bg=
+			pdXralqSlNuDHLasDKC0huVb/bY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ytu+R75gC0XzzF70S1nnKY+B8w+1u7F2Wjqylg22Ji0=
+			X5t1pj9FO+rsxY7YP2/3klsNAg/UwPFOWMcEXFSC3ig=
 			</data>
 		</dict>
 		<key>app/views/login/login.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KQXUxYtp2CLEqv4/MUBJgdC83mI=
+			q92ouqdaB8ZUA1SWSJEp4myWGo8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RX7LQDe8cqLcIoqFWHhZcvbpVpdJpHV9kjTDCjT6ZPA=
+			dv0n3xRVi8/VMsJj4AogJotv18sjHkcjTYlLCJxQeWE=
 			</data>
 		</dict>
 		<key>app/views/register/register.js</key>
@@ -6813,11 +6817,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aQXVu0XT26KZbRxNdVuCEzcqKiE=
+			7RNIc5Dm3u+EsTvbqG+ebetrMr0=
 			</data>
 			<key>hash2</key>
 			<data>
-			N5R0hFNIneAWkowwM6huKVZqJRbaotX84w7IdVO/C7U=
+			8bVJ4Glx7BJOrMQHzhRKgjkCCEobqQLwLIaQN0j21D8=
+			</data>
+		</dict>
+		<key>build-release.xcconfig</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			45ZapnHwkJW7OEz5xzSEiaNkdX4=
+			</data>
+			<key>hash2</key>
+			<data>
+			6KQbmvjYBLrCNollqqbvOue3GfoYbOXnizi/ItGZPYY=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>

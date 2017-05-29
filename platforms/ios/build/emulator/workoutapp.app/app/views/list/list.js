@@ -1,4 +1,6 @@
+
 var dialogsModule = require("ui/dialogs");
+var swipeDelete = require("../../shared/utils/ios-swipe-delete");
 var socialShare = require("nativescript-social-share");
 var observableModule = require("data/observable")
 var ObservableArray = require("data/observable-array").ObservableArray;
@@ -13,6 +15,12 @@ var pageData = new observableModule.fromObject({
 
 exports.loaded = function(args) {
     page = args.object;
+    if (page.ios) {
+        var listView = page.getViewById("workoutList");
+        swipeDelete.enable(listView, function(index) {
+            workoutList.delete(index);
+        });
+    }
     page.bindingContext = pageData;
     var listView = page.getViewById("workoutList");
     workoutList.empty();
@@ -56,4 +64,9 @@ exports.share = function() {
     }
     var listString = list.join(", ").trim();
     socialShare.shareText(listString);
+};
+exports.delete = function(args) {
+    var item = args.view.bindingContext;
+    var index = workoutList.indexOf(item);
+    workoutList.delete(index);
 };
