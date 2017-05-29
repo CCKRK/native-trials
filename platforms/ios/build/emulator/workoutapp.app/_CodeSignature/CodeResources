@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		3UsV1dKNL12+UlGCEqIaGRcUk5k=
+		pQeHQD0NkWzXnFxh6wcMJAkaYDk=
 		</data>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		MS9Q9jXLSyBqyIrxYtFvwf7vTZc=
+		uc2PxEa+oaNiw/OkXdhVUYlzN3c=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Rmbj2g+4ixMmQ16nuATYojHz3IY=
+		GgGE/gJAQCBWoLGf7VCkVAMOiFU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -278,11 +278,11 @@
 		</data>
 		<key>app/shared/view-models/user-view-model.js</key>
 		<data>
-		48oAZl2j9eq7ITJ8vYwKwcr505A=
+		H8k+Cv9+AcqFtjWvgILO6Zl94p8=
 		</data>
 		<key>app/shared/view-models/workout-list-view-model.js</key>
 		<data>
-		Z2J/Pmf7GUEtU1FRxpRsBhw8xZ0=
+		9VQIhw0Iw7j2mEYJAb5ryCwOYPo=
 		</data>
 		<key>app/tns_modules/email-validator/.npmignore</key>
 		<data>
@@ -2076,11 +2076,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3UsV1dKNL12+UlGCEqIaGRcUk5k=
+			pQeHQD0NkWzXnFxh6wcMJAkaYDk=
 			</data>
 			<key>hash2</key>
 			<data>
-			M2nqYLARuYq/yO5TfDxAqB/s7mlQ8Ex7KwQljIStoso=
+			pnuYIgqxa3CKXuB8cWZJ5aOaf/CE3slEnW/1eGLTswo=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
@@ -2362,11 +2362,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MS9Q9jXLSyBqyIrxYtFvwf7vTZc=
+			uc2PxEa+oaNiw/OkXdhVUYlzN3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			AqFpdkjQUO8u9SS5yxuLr0hhREQY9uFFQ4/yfM4mlTM=
+			abU/cie/Vo0kAoeb8TJ7kIM8EeK/kvHKM2YR06MOCw0=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2384,11 +2384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rmbj2g+4ixMmQ16nuATYojHz3IY=
+			GgGE/gJAQCBWoLGf7VCkVAMOiFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			1jw7iOJjtok7bIlpzYsA1w1AgjIJk1sGc1F4qYcx3S4=
+			3oTrXcpRr8xLbvHsN2WG2YrzNDER4Yk1iuHcagM0NoI=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -2582,22 +2582,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			48oAZl2j9eq7ITJ8vYwKwcr505A=
+			H8k+Cv9+AcqFtjWvgILO6Zl94p8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4utyVVaehidG4G9Yc625+NpbBa/W2vrm1iLQR/cLBdM=
+			hO0KErLT5E4u1EUAvypZoofU0Ezlko4hjhlgygFJRqk=
 			</data>
 		</dict>
 		<key>app/shared/view-models/workout-list-view-model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z2J/Pmf7GUEtU1FRxpRsBhw8xZ0=
+			9VQIhw0Iw7j2mEYJAb5ryCwOYPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			D8DCq0pMMAdlA0BHR71oYfwiCBCuaz1G/mQ9zUP544g=
+			dmxzvJz4BsQVQcSQbjUjw5dieN3d54xEGzvR0+uV5L0=
 			</data>
 		</dict>
 		<key>app/tns_modules/email-validator/.npmignore</key>
