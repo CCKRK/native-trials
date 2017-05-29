@@ -6,32 +6,27 @@ var http = require("http");
 //var Https =require("nativescript-https");
 // god this needs https
 var observableModule = require("data/observable");
-//var token = appSettings.getString('token', 'defaultValue');
 function User(info) {
     info = info || {};
     var viewModel = new observableModule.fromObject({
         email: info.email || "",
         password: info.password || ""
     });
-    var result;
     viewModel.login = function(){
      return http.request({
-        //url: "http://cckrk.pythonanywhere.com/AuthenticateUser",
         url: config.apiURL + '/AuthenticateUser',
         method: "POST",
         headers: { "Content-Type": "application/json" },
         content: JSON.stringify({ email: viewModel.get("email"), password: viewModel.get("password") })
     })
-    //.then(handleErrors)
     .then(function (response) {
-        //console.log(JSON.stringify(response.content));
         return  response.content.toJSON();
 
         }).then(function(data){
             if(data.status != 200){
                 throw Error(data.status);
             }
-            return data;//console.log(data.UserID);
+            appSettings.setString('token',data.UserID);
         })
     };
     /*viewModel.login = function() {
@@ -61,6 +56,30 @@ function User(info) {
             appSettings.setString('token',data.UserID);
         })
     };*/
+
+    viewModel.register = function(){
+     return http.request({
+        //url: "http://cckrk.pythonanywhere.com/AuthenticateUser",
+        url: config.apiURL + '/CreateUser',
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        content: JSON.stringify({ email: viewModel.get("email"), password: viewModel.get("password") })
+    })
+    //.then(handleErrors)
+    .then(function (response) {
+        //console.log(JSON.stringify(response.content));
+        return  response.content.toJSON();
+
+        }).then(function(data){
+            if(data.status != 200){
+                throw Error('Username Unavailable');
+            }
+            return data;//console.log(data.UserID);
+        })
+    };
+
+
+/*
     viewModel.register = function() {
         return fetchModule.fetch(config.apiUrl + "/CreateUser", {
             method: "POST",
@@ -82,7 +101,7 @@ function User(info) {
             }
             return data;
         })
-    };
+    };*/
     viewModel.isValidEmail = function() {
         var email = this.get("email");
         return validator.validate(email);
