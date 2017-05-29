@@ -21,7 +21,8 @@ function User(info) {
                 //grant_type: "password"
             }),
             headers: {
-                "Content-Type": "application/json"
+                //"Content-Type": "application/json"
+                'Content-Type': 'application/x-www-form-urlencoded',
             }
         })
         .then(handleErrors)

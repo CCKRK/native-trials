@@ -9,7 +9,7 @@ function workoutListViewModel(items) {
         //console.log(token);
     return fetch(config.apiUrl + "/GetAllItems?userID=" + token, {
         headers: {
-         //   "Authorization": "None" //+ config.token
+            "Authorization": "Bearer" + config.token
         }
     })
     .then(handleErrors)
