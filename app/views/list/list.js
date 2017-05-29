@@ -1,4 +1,7 @@
+
 var dialogsModule = require("ui/dialogs");
+var swipeDelete = require("../../shared/utils/ios-swipe-delete");
+var socialShare = require("nativescript-social-share");
 var observableModule = require("data/observable")
 var ObservableArray = require("data/observable-array").ObservableArray;
 var page;
@@ -9,12 +12,26 @@ var pageData = new observableModule.fromObject({
     newExercise: ""
 });
 
+
 exports.loaded = function(args) {
     page = args.object;
+    if (page.ios) {
+        var listView = page.getViewById("workoutList");
+        swipeDelete.enable(listView, function(index) {
+            workoutList.delete(index);
+        });
+    }
     page.bindingContext = pageData;
-
+    var listView = page.getViewById("workoutList");
     workoutList.empty();
-    workoutList.load();
+    pageData.set("isLoading", true);
+    workoutList.load().then(function() {
+        pageData.set("isLoading", false);
+        listView.animate({
+            opacity: 1,
+            duration: 1000
+        });
+    });
 };
 //have to redo add function to interact with sql
 exports.add = function() {
@@ -39,4 +56,17 @@ exports.add = function() {
 
     // Empty the input field
     pageData.set("newExercise", "");
+};
+exports.share = function() {
+    var list = [];
+    for (var i = 0, size = workoutList.length; i < size ; i++) {
+        list.push(workoutList.getItem(i).name);
+    }
+    var listString = list.join(", ").trim();
+    socialShare.shareText(listString);
+};
+exports.delete = function(args) {
+    var item = args.view.bindingContext;
+    var index = workoutList.indexOf(item);
+    workoutList.delete(index);
 };

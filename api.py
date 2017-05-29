@@ -89,7 +89,7 @@ class AddItem(Resource):
             _userID = args['userID']
             _exercise = args['exerciseName']
 
-            print _userID;
+            #print _userID;
 
             conn = mysql.connect()
             cursor = conn.cursor()
@@ -102,7 +102,29 @@ class AddItem(Resource):
         except Exception as e:
             return {'error': str(e)}
         
+class RemoveItem(Resource):
+    def delete(self):
+        try: 
+            # Parse the arguments
+            parser = reqparse.RequestParser()
+            parser.add_argument('exerciseID', type=str)
+            args = parser.parse_args()
+
+            _exerciseID = args['exerciseID']
+
+            conn = mysql.connect()
+            cursor = conn.cursor()
+            cursor.callproc('sp_RemoveItems',(_exerciseID,))
+            data = cursor.fetchall()
+
+            conn.commit()
+            return {'StatusCode':'200','Message': 'Success'}
+
+        except Exception as e:
+            return {'error': str(e)}
+        
                 
+
 
 class CreateUser(Resource):
     def post(self):
@@ -136,6 +158,7 @@ api.add_resource(CreateUser, '/CreateUser')
 api.add_resource(AuthenticateUser, '/AuthenticateUser')
 api.add_resource(AddItem, '/AddItem')
 api.add_resource(GetAllItems, '/GetAllItems')
+api.add_resource(RemoveItem, '/RemoveItem')
 
 if __name__ == '__main__':
     app.run(debug=True)

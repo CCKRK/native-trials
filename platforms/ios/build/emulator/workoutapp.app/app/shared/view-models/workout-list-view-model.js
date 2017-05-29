@@ -6,7 +6,7 @@ var token = appSettings.getString('token','defaultValue');
 function workoutListViewModel(items) {
     var viewModel = new ObservableArray(items);
     viewModel.load = function() {
-        console.log(token);
+        //console.log(token);
     return fetch(config.apiUrl + "/GetAllItems?userID=" + token, {
         headers: {
          //   "Authorization": "None" //+ config.token

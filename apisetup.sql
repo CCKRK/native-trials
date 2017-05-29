@@ -62,6 +62,15 @@ BEGIN
 END$$
 DELIMITER ;
 
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_RemoveItems`(
+in p_exerciseID varchar(55)
+)
+BEGIN
+    DELETE FROM exercises WHERE exerciseID = p_exerciseID
+END$$
+DELIMITER ;
+
 
 
 DELIMITER ;

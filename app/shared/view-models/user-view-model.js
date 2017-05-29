@@ -1,6 +1,7 @@
 var config = require("../../shared/config");
 var fetchModule = require("fetch");
-var appSettings = require('application-settings');
+var appSettings = require('application-settings')
+var validator = require("email-validator");
 //var Https =require("nativescript-https");
 // god this needs https
 var observableModule = require("data/observable");
@@ -58,6 +59,10 @@ function User(info) {
             }
             return data;
         })
+    };
+    viewModel.isValidEmail = function() {
+        var email = this.get("email");
+        return validator.validate(email);
     };
     return viewModel;
 }

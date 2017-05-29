@@ -6,7 +6,7 @@ var token = appSettings.getString('token','defaultValue');
 function workoutListViewModel(items) {
     var viewModel = new ObservableArray(items);
     viewModel.load = function() {
-        console.log(token);
+        //console.log(token);
     return fetch(config.apiUrl + "/GetAllItems?userID=" + token, {
         headers: {
          //   "Authorization": "None" //+ config.token
@@ -48,6 +48,24 @@ viewModel.add = function(newExercise) {
     })
     .then(function(data) {
         viewModel.push({ name: newExercise, id: this.exerciseID });
+    });
+};
+viewModel.delete = function(index) {
+    return fetch(config.apiUrl + "/RemoveItem", {
+        method: "DELETE",
+        body: JSON.stringify({
+            exerciseID: viewModel.getItem(index).id
+        }),
+        headers: {
+           // "Authorization": "Bearer " + config.token,
+            "Content-Type": "application/json"
+        }
+
+        //console.log(viewModel.getItem(index).id + ' the odd viewmodelobj');
+    })
+    .then(handleErrors)
+    .then(function() {
+        viewModel.splice(index, 1);
     });
 };
     return viewModel;
