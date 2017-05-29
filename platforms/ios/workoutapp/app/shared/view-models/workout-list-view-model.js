@@ -36,7 +36,6 @@ viewModel.add = function(newExercise){
     content: JSON.stringify({ exerciseName: newExercise, userID: token })
 })
 .then(function (response) {
-    console.log(JSON.stringify(response.content.toJSON()));
     return  response.content.toJSON();
 
     })
@@ -46,7 +45,6 @@ viewModel.add = function(newExercise){
 };
 viewModel.delete = function(index){
     var num = viewModel.getItem(index).id;
-    console.log(num);
  return http.request({
     url: config.apiURL + '/RemoveItem' ,
     method: "POST",
@@ -56,7 +54,6 @@ viewModel.delete = function(index){
  .then(function (response){
     return response.content.toJSON();
  })
-
     .then(function() {
         viewModel.splice(index, 1);
     });
