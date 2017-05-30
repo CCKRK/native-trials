@@ -7,10 +7,12 @@ var GettingStartedViewModel = (function (_super) {
     __extends(GettingStartedViewModel, _super);
     function GettingStartedViewModel() {
         var _this = _super.call(this) || this;
-        _this.set("mainContentText", "Welcome to Simple Workouts"
-         );
+        //var routineList = new routineListViewModel([]);
+        _this.set("mainContentText", "Welcome to Simple Workouts! Below is your current routine. Touch any workout to begin recording" +
+        	" and some more text here");
         return _this;
     }
+
     GettingStartedViewModel.prototype.onOpenDrawerTap = function () {
         var sideDrawer = (frame.topmost().getViewById("sideDrawer"));
         sideDrawer.showDrawer();

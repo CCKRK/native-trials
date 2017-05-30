@@ -6,9 +6,7 @@
 		<Image src="res://logo" horizontalAlignment="center" />
 		<TextField id="email" text="{{ email }}" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
 		<TextField secure="true" text="{{ password }}" hint="Password" />
-
 	    <Button text="Sign in" tap="signIn" />
-	    <Button text="Sign up for SimpleWorkouts" class="link" tap="register" />
-
-	</StackLayout>
+	    <Button text="Sign up for SimpleWorkouts" class="link" tap="register" />	
+	</StackLayout> 
 </Page>

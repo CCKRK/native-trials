@@ -1,5 +1,6 @@
 {
     "email-validator": true,
+    "nativescript-fonticon": true,
     "nativescript-https": true,
     "nativescript-social-share": true,
     "nativescript-telerik-ui": true,

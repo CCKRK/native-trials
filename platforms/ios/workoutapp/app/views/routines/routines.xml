@@ -2,7 +2,16 @@
 	xmlns:nsDrawer="nativescript-telerik-ui/sidedrawer">
 	<Page.actionBar>
 	  <ActionBar>
+    <!--  <android>
+    <NavigationButton icon="res://ic_menu" tap="showSlideout" />
+  </android>
+  <ios>find a way to add icons here
+    <ActionItem icon="res://ic_menu" ios.position="left" tap="showSideDrawer" />
+  </ios> -->
+      <ios>
+      <ActionItem  ios.position="left" tap="{{ onOpenDrawerTap }}" />
 	    <NavigationButton visibility="collapsed"/>
+      </ios>
 	  </ActionBar>
 	</Page.actionBar>
 <nsDrawer:RadSideDrawer id="sideDrawer">
@@ -13,7 +22,9 @@
       </StackLayout>
       <StackLayout>
         <Label text="My Account" padding="10" backgroundColor="lightgray"/>
-        <Label text="Edit Routines" padding="10"/>
+        <Label text="Create New Routine" padding="10"/>
+        <Label text="Search Community Routines" padding="10"/>
+        <Label text="Edit Current Routine" padding="10" tap="gotolist"/>
         <Label text="View Progress" padding="10" />
         <Label text="View Reccomendations" padding="10" backgroundColor="lightgray" />
         <Label text="Log Out" padding="10" />
@@ -25,10 +36,19 @@
 
   <nsDrawer:RadSideDrawer.mainContent>
     <StackLayout >
-      <Label text="{{ mainContentText }}" textWrap="true" fontSize="13" padding="10" /> 
-      <!--<Button text="Push Transition" tap="{{ onOpenDrawerTap }}" class="drawerContentButton"/> -->
-      <Button text="Open drawer" tap="{{ onOpenDrawerTap }}" margin="10" style="horizontal-align: left" />
+      <Label text="{{ mainContentText }}" fontSize="14" /> 
+      <!--<Button text="Push Transition" tap="{{ onOpenDrawerTap }}" class="drawerContentButton"/>
+      <!--<Button text="Open drawer" tap="{{ onOpenDrawerTap }}" margin="10" style="horizontal-align: left" /> -->
+      <!--<Label text="{{ mainContentText }}" textWrap="true" fontSize="14" padding="9" /> -->
+      <Label text = "Coolcicadia's PPL - Push (needs implementation)" horizontalALignment = "center" horizontalAlignment="left" verticalALignment = "center" />
+      <Label text = "Exercises:" horizontalAlignment = "Left" fontSize ="14"/>
+      <ListView items="{{ routineList }}" id="routineList" row="1" colSpan="2">
+      	<ListView.itemTemplate>
+              <Label text="{{ name }}" horizontalAlignment="center" verticalAlignment="center" padding="10"/>
+          </ListView.itemTemplate>
+      </ListView>
 
+      <ActivityIndicator busy="{{ isLoading }}" rowSpan="2" colSpan="2" />
     </StackLayout>
   </nsDrawer:RadSideDrawer.mainContent>
 </nsDrawer:RadSideDrawer>

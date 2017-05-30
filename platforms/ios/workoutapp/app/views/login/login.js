@@ -3,8 +3,7 @@ var dialogsModule = require("ui/dialogs");
 var page;
 var email;
 var UserViewModel = require("../../shared/view-models/user-view-model");
-//var user = new UserViewModel();
-//hardcode credentials for trials
+"use strict";
 var user = new UserViewModel({
     email: "codykessler@gmail.com",
     password: "savias12"
@@ -35,3 +34,5 @@ exports.register = function() {
 	var topmost = frameModule.topmost();
 	topmost.navigate("views/register/register");
 };
+
+

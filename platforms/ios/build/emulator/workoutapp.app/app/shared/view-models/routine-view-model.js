@@ -7,10 +7,12 @@ var GettingStartedViewModel = (function (_super) {
     __extends(GettingStartedViewModel, _super);
     function GettingStartedViewModel() {
         var _this = _super.call(this) || this;
-        _this.set("mainContentText", "SideDrawer for NativeScript can be easily setup in the XML definition of your page by defining main- and drawer-content. The component"
-            + " has a default transition and position and also exposes notifications related to changes in its state. Swipe from left to open side drawer.");
+        //var routineList = new routineListViewModel([]);
+        _this.set("mainContentText", "Welcome to Simple Workouts! Below is your current routine. Touch any workout to begin recording" +
+        	" and some more text here");
         return _this;
     }
+
     GettingStartedViewModel.prototype.onOpenDrawerTap = function () {
         var sideDrawer = (frame.topmost().getViewById("sideDrawer"));
         sideDrawer.showDrawer();
