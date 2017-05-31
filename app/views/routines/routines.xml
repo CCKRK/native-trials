@@ -1,7 +1,7 @@
 <Page loaded="pageLoaded"
 	xmlns:nsDrawer="nativescript-telerik-ui/sidedrawer">
 	<Page.actionBar>
-	  <ActionBar text="Routines">
+	  <ActionBar title="Routine">
     <!--  <android>
     <NavigationButton icon="res://ic_menu" tap="showSlideout" />
   </android>

@@ -44,6 +44,7 @@ viewModel.add = function(newExercise){
 };
 viewModel.delete = function(index){
     var num = viewModel.getItem(index).id;
+    console.log(num);
  return http.request({
     url: config.apiURL + '/RemoveItem' ,
     method: "POST",

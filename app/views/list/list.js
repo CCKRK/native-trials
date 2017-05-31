@@ -63,5 +63,7 @@ exports.share = function() {
 exports.delete = function(args) {
     var item = args.view.bindingContext;
     var index = workoutList.indexOf(item);
+    console.log(index);
+    console.log(item);
     workoutList.delete(index);
 };

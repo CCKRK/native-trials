@@ -43,7 +43,7 @@ exports.toggleDrawer = function() {
 exports.gotolist = function(){
 	frameModule.topmost().navigate("views/list/list");
 };
-/*exports.add = function() {
+exports.add = function() {
     // Check for empty submissions
     if (pageData.get("newExercise").trim() === "") {
         dialogsModule.alert({
@@ -76,5 +76,5 @@ exports.delete = function(args) {
     var item = args.view.bindingContext;
     var index = routineList.indexOf(item);
     routineList.delete(index);
-};*/
+};
 exports.pageLoaded = pageLoaded;
