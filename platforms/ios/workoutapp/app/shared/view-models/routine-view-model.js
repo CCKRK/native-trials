@@ -2,6 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // >> sidedrawer-getting-started-model
 var observable_1 = require("tns-core-modules/data/observable");
+
+var drawerModule = require("nativescript-telerik-ui/sidedrawer");
 var frame = require("tns-core-modules/ui/frame");
 var GettingStartedViewModel = (function (_super) {
     __extends(GettingStartedViewModel, _super);
@@ -12,8 +14,15 @@ var GettingStartedViewModel = (function (_super) {
         	" and some more text here");
         return _this;
     }
-
-    GettingStartedViewModel.prototype.onOpenDrawerTap = function () {
+    GettingStartedViewModel.prototype.onPushTransitionTap = function (args) {
+        this.setDrawerTransition(new drawerModule.PushTransition());
+        this.openSideDrawer();
+    };
+        GettingStartedViewModel.prototype.setDrawerTransition = function (transition) {
+        var drawer = frame.topmost().getViewById("sideDrawer");
+        drawer.drawerTransition = transition;
+    }; 
+    GettingStartedViewModel.prototype.openSideDrawer = function () {
         var sideDrawer = (frame.topmost().getViewById("sideDrawer"));
         sideDrawer.showDrawer();
     };

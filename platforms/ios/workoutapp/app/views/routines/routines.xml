@@ -9,7 +9,7 @@
     <ActionItem icon="res://ic_menu" ios.position="left" tap="showSideDrawer" />
   </ios> -->
       <ios>
-      <ActionItem  ios.position="left" tap="{{ onOpenDrawerTap }}" />
+      <ActionItem  ios.position="left" tap="{{ onPushTransitionTap }}" />
 	    <NavigationButton visibility="collapsed"/>
       </ios>
 	  </ActionBar>
