@@ -1,7 +1,7 @@
 <Page loaded="pageLoaded"
 	xmlns:nsDrawer="nativescript-telerik-ui/sidedrawer">
 	<Page.actionBar>
-	  <ActionBar>
+	  <ActionBar title="Routine">
     <!--  <android>
     <NavigationButton icon="res://ic_menu" tap="showSlideout" />
   </android>
@@ -41,19 +41,20 @@
   </nsDrawer:RadSideDrawer.drawerContent>
 
   <nsDrawer:RadSideDrawer.mainContent>
-    <StackLayout >
+  <StackLayout>
       <!--<Button text="Push Transition" tap="{{ onOpenDrawerTap }}" class="drawerContentButton"/>
       <!--<Button text="Open drawer" tap="{{ onOpenDrawerTap }}" margin="10" style="horizontal-align: left" /> -->
       <!--<Label text="{{ mainContentText }}" textWrap="true" fontSize="14" padding="9" /> -->
       <Label text = "Coolcicadias PPL - Push (needs implementation)" horizontalALignment = "center" textwrap= "true" horizontalAlignment="left" verticalALignment = "center" />
       <Label text = "Exercises:" horizontalAlignment = "Left" fontSize ="14"/>
+        <GridLayout rows="auto, *" columns="2*, *">
       <ListView items="{{ routineList }}" id="routineList" row="1" colSpan="2">
       	<ListView.itemTemplate>
-              <Label text="{{ name }}" horizontalAlignment="center" verticalAlignment="center" padding="10"/>
+              <Label text="{{ name }}" horizontalAlignment="left" verticalAlignment="center" padding="10"/>
           </ListView.itemTemplate>
       </ListView>
-
       <ActivityIndicator busy="{{ isLoading }}" rowSpan="2" colSpan="2" />
+    </GridLayout>
     </StackLayout>
   </nsDrawer:RadSideDrawer.mainContent>
 </nsDrawer:RadSideDrawer>

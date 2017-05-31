@@ -50,11 +50,9 @@ class AuthenticateUser(Resource):
 class GetAllItems(Resource):
     def get(self):
         try: 
-            # Parse the arguments
             parser = reqparse.RequestParser()
             parser.add_argument('userID', type=str)
             args = parser.parse_args()
-            #remember this userID is a number. eg cody has an id of 1.  
             _userID = args['userID']
 
             conn = mysql.connect()
@@ -66,7 +64,7 @@ class GetAllItems(Resource):
             for item in data:
 
                 i = {
-                    'RoutineName':item[0],
+                    'routineName':item[0],
                     'exerciseName':item[1],
                     'exerciseID':item[2]
                 }
@@ -86,11 +84,9 @@ class AddItem(Resource):
             parser.add_argument('exerciseName', type=str)
             args = parser.parse_args()
 
-            #_userID = args['userID']
             _userID = args['userID']
             _exercise = args['exerciseName']
 
-            #print _userID;
 
             conn = mysql.connect()
             cursor = conn.cursor()

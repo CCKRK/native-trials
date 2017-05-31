@@ -90,11 +90,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		pExrxmBSJsCagJgV0cgwXTLDKbM=
+		uVMx2pU9yvJj8f4bmHnRkElMBsw=
 		</data>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		wJXOmpxG1FA7ocul06F0Dc0VbKA=
+		c6mz56fzHnFju/GzA4gT7rGoQno=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		gOEJJoPtoC5xyWgkhoomjPZ4ctA=
+		Jvys6eYRe4WllWQMZz/TMotcak8=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Frameworks/TNSWidgets.framework/TNSWidgets</key>
 		<data>
-		4Q1nlfv7zrcEg2+kLN5RGFjA+SE=
+		W+L+SLuxy48bspGsd5LNBMeJyw4=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Frameworks/TelerikUI.framework/TelerikUI</key>
 		<data>
-		2a3L6WJFWAAh2WPp12y1d3Rwgqo=
+		yzQ6nnjqZQxGtz2sk/Exezi3UWQ=
 		</data>
 		<key>Frameworks/TelerikUI.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		67FcpL2NQRG1RgwzqjbwOlNEZAE=
+		ef9mkr9Z/keMb+m1YfR035VmgqU=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		0VqRmY8UUZdssEoUTFXgp5+7tlI=
+		cmvNjT4zxOnp8uphPo+G2Fiwo90=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>app/shared/view-models/workout-list-view-model.js</key>
 		<data>
-		/1CrtKImLp9NxEGo+CPT85mCYXU=
+		BfLK0elhGQJcWHF7yDPhewwPuQk=
 		</data>
 		<key>app/tns_modules/email-validator/.npmignore</key>
 		<data>
@@ -1994,7 +1994,7 @@
 		</data>
 		<key>app/views/list/list.js</key>
 		<data>
-		NRu2m3gK6WixW4YKKx+i/J9CHHA=
+		AvtQC3yRc1H4PzsLiNWg/lltu1A=
 		</data>
 		<key>app/views/list/list.xml</key>
 		<data>
@@ -2026,11 +2026,11 @@
 		</data>
 		<key>app/views/routines/routines.js</key>
 		<data>
-		p0HA0Dy3vEVjCNLojLn4oGv2jgU=
+		nSFnTmnddGAzKNAb6v9Fsw4mN2M=
 		</data>
 		<key>app/views/routines/routines.xml</key>
 		<data>
-		/08NR/0VrKbcXtaaqZu9OMfnz64=
+		TphnL2PWSsX/XX3WHsrps1HJRsw=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -2295,22 +2295,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pExrxmBSJsCagJgV0cgwXTLDKbM=
+			uVMx2pU9yvJj8f4bmHnRkElMBsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			KpPQXMpED4U3Dd49fWL9oEvB9bSB5cmt7+qGnCcF5B0=
+			PCZM9Ib31fNqaZKJPMxFSSmi0ODucwBYrVSmVhD7KHY=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wJXOmpxG1FA7ocul06F0Dc0VbKA=
+			c6mz56fzHnFju/GzA4gT7rGoQno=
 			</data>
 			<key>hash2</key>
 			<data>
-			E0ZKqUQqjZQfZplGPPwCjYDu1cqcfoHS/biUEXZmOhM=
+			Pqp+bK4pWmYruwZl164egOrg2FGRZ+eHAHTla7EbsrQ=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
@@ -2350,11 +2350,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gOEJJoPtoC5xyWgkhoomjPZ4ctA=
+			Jvys6eYRe4WllWQMZz/TMotcak8=
 			</data>
 			<key>hash2</key>
 			<data>
-			iuM/UYLDA72A8AXBfFZ0f36t6m2aJi8ktQAWP1IVQVU=
+			eawOW+YFV9yYPbIr6teGcmFFWRtY8yIcKM6XP6T+bWc=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -2383,11 +2383,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Q1nlfv7zrcEg2+kLN5RGFjA+SE=
+			W+L+SLuxy48bspGsd5LNBMeJyw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vc3glzxL/3L46/aqrc0F61U+G+N7D9sX+KM/J4ergw4=
+			Wlxshc9ekc7ntqTtg6YPeTP3QwAFiYMdeWnhfhj8fDU=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
@@ -2416,11 +2416,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2a3L6WJFWAAh2WPp12y1d3Rwgqo=
+			yzQ6nnjqZQxGtz2sk/Exezi3UWQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kvOgJmaq3NTLwNRZ6gryUINXsId/koBfKUhxmYU0ENs=
+			o4DmY7ouuhopzXO58OXx3qFdZJSIyh+ZbQYr5etnqFU=
 			</data>
 		</dict>
 		<key>Frameworks/TelerikUI.framework/_CodeSignature/CodeResources</key>
@@ -2614,11 +2614,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			67FcpL2NQRG1RgwzqjbwOlNEZAE=
+			ef9mkr9Z/keMb+m1YfR035VmgqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			w/7uhhfCnm0axTFG3TZV3KmsDKyKn7RBV2rK8n2db84=
+			CU8hwvIm3ZWHvncFBFT9cK9fvnfvnqsMmpublP4Rkk8=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2636,11 +2636,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0VqRmY8UUZdssEoUTFXgp5+7tlI=
+			cmvNjT4zxOnp8uphPo+G2Fiwo90=
 			</data>
 			<key>hash2</key>
 			<data>
-			kPY7qwZaT1maLEyvL1Mdq0IpQ6t43g2Gfs9UMiYtKto=
+			iU2+Ms54Y4riQ1CO90nVGK4+RVh9WD7HkG1eXhVCZng=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -2856,11 +2856,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/1CrtKImLp9NxEGo+CPT85mCYXU=
+			BfLK0elhGQJcWHF7yDPhewwPuQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			l3edX5oyU6R3wAlu1thoWFCw0+49nYYsJFt7lw4Ctyo=
+			zCoVNrSUwHXpAAf+fzvWW0hp40/YzSPRd784QO3wva8=
 			</data>
 		</dict>
 		<key>app/tns_modules/email-validator/.npmignore</key>
@@ -7509,11 +7509,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NRu2m3gK6WixW4YKKx+i/J9CHHA=
+			AvtQC3yRc1H4PzsLiNWg/lltu1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			X4lcC+F7LOy//3dUBf5+CVrggLvCMrdXsN9+d4kTB/U=
+			nT4OynvYN/FblFHgT5xyXmQzlI1TzuFTWJQraQqW62g=
 			</data>
 		</dict>
 		<key>app/views/list/list.xml</key>
@@ -7597,22 +7597,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p0HA0Dy3vEVjCNLojLn4oGv2jgU=
+			nSFnTmnddGAzKNAb6v9Fsw4mN2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gk69gYMva31i4tuIfP+LmLDqIa0pRSEQZ5p9O+SI7Kk=
+			bPUonbV2wXOAdrdM1fnBX8vGsJIzvRTYHCBYUeXTz70=
 			</data>
 		</dict>
 		<key>app/views/routines/routines.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/08NR/0VrKbcXtaaqZu9OMfnz64=
+			TphnL2PWSsX/XX3WHsrps1HJRsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fDRRYcm6cyqV55cbLLUCD9aCm8ktvFKBIbaqLUgdGqA=
+			LWx9KNAwUKskBMM6GhiOBYEIBPTYbznUkE/qpNq3so0=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
