@@ -90,11 +90,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		VPhp08CPdomrIj/GisBu30uUvW0=
+		z+ppPu8WZyy36GUfI7I3JfYdLmI=
 		</data>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		XCWD1iB4bRETIGlDd7nRvgeok/A=
+		ava41LCmjqUilQy+DIPJQpYSLN8=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		21O/B3Bn/K9pJhv375MnWT0BGgg=
+		e+HZbxGp9O098N2xXeCyKCsrJMk=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		XrYoJ+jfPgduwRZ7IcuJyVJicsE=
+		dsmZ7kCH0CCVO3hG3kdMl5tirnc=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		lDK2FlHaELYb+1iKLNjh9z7Y2A4=
+		s43Bxr8VvMqPYJnSncQmchGDF2g=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -2002,7 +2002,7 @@
 		</data>
 		<key>app/views/login/login.css</key>
 		<data>
-		asxBFmvdmPpymUgxOO/KWMCCBHs=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>app/views/login/login.js</key>
 		<data>
@@ -2010,15 +2010,15 @@
 		</data>
 		<key>app/views/login/login.xml</key>
 		<data>
-		+k4SxpRWMjeJnfl9lDimJ8MxjYI=
+		gUpn468c33gi5awe+x50slQJmZE=
 		</data>
 		<key>app/views/register/register.js</key>
 		<data>
-		Qd3divQAKY3vF+DXG52N2tFPAeU=
+		XTb8XVJC1MxWSuLEliapGu44GXU=
 		</data>
 		<key>app/views/register/register.xml</key>
 		<data>
-		7RNIc5Dm3u+EsTvbqG+ebetrMr0=
+		JEFFzdC4hZwocyU7+eyl/psB/ZU=
 		</data>
 		<key>app/views/routines/routines.css</key>
 		<data>
@@ -2295,22 +2295,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VPhp08CPdomrIj/GisBu30uUvW0=
+			z+ppPu8WZyy36GUfI7I3JfYdLmI=
 			</data>
 			<key>hash2</key>
 			<data>
-			x6DEE89Ic9y0r964ZrR/vtJpWM5d6Gkx1vPoZ5BqorU=
+			nZCBAkGngFb3O+4Bp7FNY5ctJQbmtm5JX5NjWDV3Eck=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XCWD1iB4bRETIGlDd7nRvgeok/A=
+			ava41LCmjqUilQy+DIPJQpYSLN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pg2jo2OnlCccPRpiit3wE1qNkhdqSTPNMeiodyPmUHM=
+			WI+/tfDDe6tqdG5veQjq6XYsq0kAKqvnsi7DoRc6+XA=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
@@ -2350,11 +2350,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			21O/B3Bn/K9pJhv375MnWT0BGgg=
+			e+HZbxGp9O098N2xXeCyKCsrJMk=
 			</data>
 			<key>hash2</key>
 			<data>
-			W82p8NIzlMrhlNcBJGVO75+O5/4l1EURgiiMFNkDb3Q=
+			2cxi+z9O8+Mv8g8+vMlnSvAiNa6ElNoNDw/FUzWBhwU=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -2614,11 +2614,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XrYoJ+jfPgduwRZ7IcuJyVJicsE=
+			dsmZ7kCH0CCVO3hG3kdMl5tirnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			uoCz0jczquqnLm0O/1wkWsQoDBLoNPzNG3TIUS4bHkE=
+			gwdv4WByHOgXHuKqLgzU1M0xChqBHLTi9gxhZkx/r7E=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2636,11 +2636,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lDK2FlHaELYb+1iKLNjh9z7Y2A4=
+			s43Bxr8VvMqPYJnSncQmchGDF2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			7CXGhcR8MXGwPXiWcvvzwmdFA1KFMiQVYyNvmYPPfSc=
+			NL8Ut0YDPc4a0DGJrpcb+SYWgBMmEutap2n6cq5fUDo=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -7531,11 +7531,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			asxBFmvdmPpymUgxOO/KWMCCBHs=
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			OeUWkRGKTGwoVQ9gH1C330KRzDayfkY1LwDpIWCskHA=
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>app/views/login/login.js</key>
@@ -7553,33 +7553,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+k4SxpRWMjeJnfl9lDimJ8MxjYI=
+			gUpn468c33gi5awe+x50slQJmZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			QEcylTueAlXiUj007nCWLD1nKWLvt/ZTLDdAWMuZfLA=
+			ZZO28mhW8htZz6RhJa2MGQ7/0edz4LXFm6XNuBu5ZEg=
 			</data>
 		</dict>
 		<key>app/views/register/register.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Qd3divQAKY3vF+DXG52N2tFPAeU=
+			XTb8XVJC1MxWSuLEliapGu44GXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0MYv7HILTiFBbaQP4l9j/DU543qdCtygD9m+ZUJiT6w=
+			IbJd60ez1XplgH4D/hz+7bKIwdAln3zlpnRLXrNugEc=
 			</data>
 		</dict>
 		<key>app/views/register/register.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7RNIc5Dm3u+EsTvbqG+ebetrMr0=
+			JEFFzdC4hZwocyU7+eyl/psB/ZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			8bVJ4Glx7BJOrMQHzhRKgjkCCEobqQLwLIaQN0j21D8=
+			cV6xudmf/idfDHk3bHHFBQcMUL3zO9mxdVFxxCju+Yg=
 			</data>
 		</dict>
 		<key>app/views/routines/routines.css</key>

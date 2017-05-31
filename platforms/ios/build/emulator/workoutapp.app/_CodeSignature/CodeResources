@@ -90,7 +90,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		lKP6hFK1f4G+6w8f32GQzwdRhb8=
+		QXA2i0NC06NXgaglYvHUMVfjbQ8=
 		</data>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		JhYo5PL0mILxPcNa9dmMJhBDKxI=
+		b3/9p5WBRkLSqIFd+zsg/jdVhgM=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		rNV4xfNrMY7QESmFE8BHeVf1NhI=
+		CEEazkCborYpxcXwO3MJYFpSx8A=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -2299,11 +2299,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lKP6hFK1f4G+6w8f32GQzwdRhb8=
+			QXA2i0NC06NXgaglYvHUMVfjbQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			2AKLXffF521NGSWjoCoiWbI35+Dxh0J19kFdcz4vjhM=
+			Xcnos9eKwJHO8XmiXAhmkSI0AFVzLeKat2R/o1U3xlw=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
@@ -2618,11 +2618,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JhYo5PL0mILxPcNa9dmMJhBDKxI=
+			b3/9p5WBRkLSqIFd+zsg/jdVhgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			7YkMamYGydS1nj9k3vBfi8o658JFbw5jrpfqcsFzyzQ=
+			fGjHrQoDO74qlnzqUYQU/mfH9AEPq42L4cMHSPt3PgM=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2640,11 +2640,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rNV4xfNrMY7QESmFE8BHeVf1NhI=
+			CEEazkCborYpxcXwO3MJYFpSx8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			HQIwwCgn2COdY97NCiK2hGXmOiohM1kuRGdv3zGzX7k=
+			RCykIixS7vf+aQmPE8TZHXqhLmoy1fITGJqmGqVRCXA=
 			</data>
 		</dict>
 		<key>app/README.md</key>
