@@ -22,6 +22,5 @@ Button {
     padding: 10;
 }
 .fa {
-  font-family: 'FontAwesome', 'fontawesome-webfont';
-  font-size:60;
+  font-family: 'FontAwesome', 'fontawesome-webfont',FontAwesome,fontawesome-webfont;
 }

@@ -11,8 +11,6 @@ var pageData = new observableModule.fromObject({
     workoutList: workoutList,
     newExercise: ""
 });
-
-
 exports.loaded = function(args) {
     page = args.object;
     if (page.ios) {
@@ -33,7 +31,6 @@ exports.loaded = function(args) {
         });
     });
 };
-//have to redo add function to interact with sql
 exports.add = function() {
     // Check for empty submissions
     if (pageData.get("newExercise").trim() === "") {
@@ -43,7 +40,6 @@ exports.add = function() {
         });
         return;
     }
-
     // Dismiss the keyboard
     page.getViewById("newExercise").dismissSoftInput();
     workoutList.add(pageData.get("newExercise"))
@@ -53,7 +49,6 @@ exports.add = function() {
                 okButtonText: "OK"
             });
         });
-
     // Empty the input field
     pageData.set("newExercise", "");
 };
