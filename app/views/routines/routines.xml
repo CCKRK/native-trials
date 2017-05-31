@@ -44,8 +44,8 @@
   <StackLayout>
       <!--<Button text="Push Transition" tap="{{ onOpenDrawerTap }}" class="drawerContentButton"/>
       <!--<Button text="Open drawer" tap="{{ onOpenDrawerTap }}" margin="10" style="horizontal-align: left" /> -->
-      <!--<Label text="{{ mainContentText }}" textWrap="true" fontSize="14" padding="9" /> -->
-      <Label text = "Coolcicadias PPL - Push (needs implementation)" horizontalALignment = "center" textwrap= "true" horizontalAlignment="left" verticalALignment = "center" />
+      <!--<Label text="{{ today + ' Hello'}}" id="today" textWrap="true" fontSize="14" padding="9" />-->
+      <Label text = "{{ today }}" id ="today" horizontalALignment = "center" textwrap= "true" horizontalAlignment="left" verticalALignment = "center" />
       <Label text = "Exercises:" horizontalAlignment = "Left" fontSize ="14"/>
         <GridLayout rows="auto, *" columns="2*, *">
       <ListView items="{{ routineList }}" id="routineList" row="1" colSpan="2">

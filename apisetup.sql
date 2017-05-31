@@ -60,10 +60,11 @@ DELIMITER ;
 DROP PROCEDURE IF EXISTS sp_GetAllItems;
 DELIMITER $$
 CREATE PROCEDURE `sp_GetAllItems` (
-in p_routineID int
+in p_routineID INT,
+in p_dayID INT
 )
 BEGIN
-    select routineName, exerciseName, exerciseID from exercises JOIN routines ON exercises.routineID = p_routineID; 
+    select routineName, exerciseName, exerciseID from exercises JOIN routines ON exercises.routineID = p_routineID WHERE dayID = p_dayID; 
 END$$
 DELIMITER ;
 

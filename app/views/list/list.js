@@ -23,7 +23,7 @@ exports.loaded = function(args) {
     var listView = page.getViewById("workoutList");
     workoutList.empty();
     pageData.set("isLoading", true);
-    workoutList.load().then(function() {
+    workoutList.load(2).then(function() {
         pageData.set("isLoading", false);
         listView.animate({
             opacity: 1,

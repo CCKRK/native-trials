@@ -6,9 +6,9 @@ var token = appSettings.getString('token','defaultValue');
 var http = require("http");
 function workoutListViewModel(items) {
     var viewModel = new ObservableArray(items);
-    viewModel.load = function(){
+    viewModel.load = function(dayID){
      return http.request({
-        url: config.apiURL + '/GetAllItems?userID=' + token,
+        url: config.apiURL + '/GetAllItems?userID=' + token + '&dayID=' + dayID,
         method: "GET"})
      .then(function (response){
         return response.content.toJSON();

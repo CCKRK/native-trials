@@ -4,13 +4,16 @@
 var frameModule = require("ui/frame");
 //var ObservableArray = require("data/observable-array").ObservableArray;
 var observableModule = require("data/observable");
-
+var d = new Date();
+var n = d.getDay();
 var swipeDelete = require("../../shared/utils/ios-swipe-delete");
 var routineListViewModel = require("../../shared/view-models/workout-list-view-model");
 var routineList = new routineListViewModel([]);
 var pageData = new observableModule.fromObject({
     routineList: routineList,
-    newExercise: ""
+    newExercise: "",
+    today: n,
+   // routineName:routineName
 });
 var drawer;
 var view = require("ui/core/view");
@@ -29,7 +32,7 @@ function pageLoaded(args) {
     var listView = page.getViewById("routineList");
     routineList.empty();
     pageData.set("isLoading", true);
-    routineList.load().then(function() {
+    routineList.load(n).then(function() {
         pageData.set("isLoading", false);
         listView.animate({
             opacity: 1,
