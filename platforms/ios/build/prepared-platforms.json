@@ -1,4 +1,9 @@
 {
+    "email-validator": true,
+    "nativescript-fonticon": true,
+    "nativescript-https": true,
+    "nativescript-social-share": true,
+    "nativescript-telerik-ui": true,
     "nativescript-theme-core": true,
     "tns-core-modules": true,
     "tns-core-modules-widgets": true

@@ -1,9 +1,19 @@
 <Page loaded="loaded">
-    <GridLayout>
-        <ListView items="{{ workoutList }}">
-            <ListView.itemTemplate>
+	<Page.actionBar>
+	    <ActionBar title="Exercise List">
+	        <ActionBar.actionItems>
+	            <ActionItem text="Share" tap="share" ios.position="right" />
+	        </ActionBar.actionItems>
+	    </ActionBar>
+	</Page.actionBar>
+	<GridLayout rows="auto, *" columns="2*, *">
+        <TextField id="newExercise" text="{{ newExercise }}" hint="Add a new Exercise" row="0" col="0" />
+        <Button text="Add" tap="add" row="0" col="1" />
+        <ListView items="{{ workoutList }}" id="workoutList" row="1" colSpan="2">
+        	<ListView.itemTemplate>
                 <Label text="{{ name }}" horizontalAlignment="left" verticalAlignment="center"/>
             </ListView.itemTemplate>
         </ListView>
+        <ActivityIndicator busy="{{ isLoading }}" rowSpan="2" colSpan="2" />
     </GridLayout>
 </Page>

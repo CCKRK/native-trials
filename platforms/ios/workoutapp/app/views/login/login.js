@@ -3,9 +3,17 @@ var dialogsModule = require("ui/dialogs");
 var page;
 var email;
 var UserViewModel = require("../../shared/view-models/user-view-model");
-var user = new UserViewModel();
+"use strict";
+var user = new UserViewModel({
+    email: "codykessler@gmail.com",
+    password: "savias12"
+});
 exports.loaded = function(args) {
     page = args.object;
+    if (page.ios) {
+        var navigationBar = frameModule.topmost().ios.controller.navigationBar;
+        navigationBar.barStyle = UIBarStyle.UIBarStyleBlack;
+    }
     page.bindingContext = user;
 };
 exports.signIn = function() {
@@ -19,10 +27,12 @@ exports.signIn = function() {
             return Promise.reject();
         })
         .then(function() {
-            frameModule.topmost().navigate("views/list/list");
+            frameModule.topmost().navigate("views/routines/routines");
         });
 };
 exports.register = function() {
 	var topmost = frameModule.topmost();
 	topmost.navigate("views/register/register");
 };
+
+

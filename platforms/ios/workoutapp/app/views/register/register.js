@@ -26,24 +26,14 @@ function completeRegistration() {
                 frameModule.topmost().goBack();
             });
         });
-//    user.register()
-//        .then(function() {
-//            dialogsModule
-//                .alert("Your account was successfully created.")
-//                .then(function() {
-//                    frameModule.topmost().navigate("views/login/login");
-//                });
-//        }).catch(function(error) {
-//            console.log(error);
-//            dialogsModule
-//                .alert({
-//                    message: "Unfortunately we were unable to create your account.",
-//                    okButtonText: "OK"
-//                });
-//        });
-
 }
-
 exports.register = function() {
-    completeRegistration();
+    if (user.isValidEmail()) {
+        completeRegistration();
+    } else {
+        dialogsModule.alert({
+            message: "Please enter a valid email address.",
+            okButtonText: "OK"
+        });
+    }
 };

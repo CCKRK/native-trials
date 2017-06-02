@@ -1,4 +1,4 @@
 module.exports = {
-    //needs https support
-    apiUrl: "http://localhost:5000"
+    apiURL: "http://localhost:5000" //local
+    //apiURL: "http://cckrk.pythonanywhere.com" //remote
 };

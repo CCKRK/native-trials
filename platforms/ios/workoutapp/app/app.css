@@ -1,4 +1,8 @@
 @import url('~/platform.css');
+ActionBar {
+    color: white;
+    background-color: #000000;
+}
 Page {
     background-color: white;
     font-size: 17;
@@ -16,4 +20,7 @@ Image {
 Button {
     margin: 10;
     padding: 10;
+}
+.fa {
+  font-family: 'FontAwesome', 'fontawesome-webfont',FontAwesome,fontawesome-webfont;
 }
